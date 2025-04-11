@@ -7,8 +7,10 @@
 const int MAX_FICHAS = 24;
 
 class Tauler
-{
+{ 
 public:
+    Tauler() {};
+    ~Tauler();
     void inicialitzaTauler(char taules[N_FILES][N_COLUMNES]);
     void llegeixTauler(const string& nomFitxer, char tauler[N_FILES][N_COLUMNES]);
     void escriuTauler(const string& nomFitxer, char tauler[N_FILES][N_COLUMNES]);

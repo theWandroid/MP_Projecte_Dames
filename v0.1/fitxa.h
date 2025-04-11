@@ -2,7 +2,6 @@
 #define FITXA_H
 #include "posicio.h"
 
-const int MAX_MOVIMENTS = 12;
 
 //Clase Fitxa
 class Fitxa

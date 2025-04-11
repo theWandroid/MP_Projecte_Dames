@@ -8,7 +8,7 @@ using namespace std;
 const int N_FILES = 8;
 const int N_COLUMNES = 8;
 
-
+ 
 class Posicio
 {
 public:

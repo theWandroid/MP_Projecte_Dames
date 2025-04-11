@@ -5,7 +5,7 @@ string Posicio::toString() const
     string pos = "a1";
     pos[0] = 'a' + m_columna;
     pos[1] = '1' + (N_FILES - 1) - m_fila;
-    return pos;
+    return pos; 
 }
 
 void Posicio::fromString(const string& pos)

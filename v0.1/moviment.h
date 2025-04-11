@@ -1,7 +1,7 @@
 #include "posicio.h"
 #include "fitxa.h"
 
-const int MAX_MOVIMENTS = 12;
+const int MAX_MOVIMENTS = 12; 
 
 /*
 
@@ -17,10 +17,10 @@ Haureu d’afegir tots els mètodes que facin falta per poder gestionar qualsevol t
 class Moviment
 {
 public:
-	Moviment 
+	Moviment();
 private:
-
+	Posicio m_movimentActual[MAX_MOVIMENTS];
 	int m_nPossiblesMoviments;
-	Posicio m_seguentPosicio[MAX_MOVIMENTS];
-	Posicio m_anteriorPosiio[MAX_MOVIMENTS];
+	Posicio m_movimentsValids[MAX_MOVIMENTS];
+	Posicio posicionsValides[MAX_MOVIMENTS];
 };

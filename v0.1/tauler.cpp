@@ -14,7 +14,7 @@ void Tauler::inicialitzaTauler(char tauler[N_FILES][N_COLUMNES])
 }
 
 //comprova si el fitxer existeix
-bool obreFitxer(const string& nomFitxer)
+bool Tauler::obreFitxer(const string& nomFitxer) 
 {
 	bool fileExist = false;
 	ifstream fitxer(nomFitxer);
@@ -27,7 +27,7 @@ bool obreFitxer(const string& nomFitxer)
 	return fileExist;
 }
 //mostra el contingut del fitxer
-void mostraFitxer(const string& nomFitxer)
+void Tauler::mostraFitxer(const string& nomFitxer)
 {
 	ifstream fitxer(nomFitxer);
 	if (fitxer.is_open())
